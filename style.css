@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+.nav-bar {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+.nav-li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav-li a{
+    text-decoration: none;
+    color: black;
+}
+/* Main Content */
+.main-img {
+    position: absolute;
+    height: 80%;
+    top: 20px;
+    right: 45%;
+    z-index: -1;
+}
+/* Hero Left Section */
+.left-section-h1 {
+    font-weight: 700;
+    font-size: 80px;
+    margin-right: 100px;
+}
+.left-section-p {
+    margin-right: 400px;
+    font-size: 20px;
+}
+.hero-section {
+    display: flex;
+}
+.left-section {
+    margin-left: 100px;
+}
+.leftsection-botton {
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.bottomAngle {
+    position: absolute;
+    left: 46rem;
+}
+.mouse {
+    position: absolute;
+    left: 49rem;
+    bottom: 17px;
+}
+/* Hero Right Section */
+.doctor {
+    height: 540px;
+    align-items: right;
+}
+.yellowBox {
+    position: absolute;
+    right: 0;
+    height: 340px;
+    z-index: -2;
+    top: 200px;
+}
+.greenBox {
+    position: absolute;
+    right: 0;
+    height: 440px;
+    z-index: -3;
+    top: 150px;
+}
