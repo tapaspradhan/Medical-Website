@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+.nav-bar {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+.nav-li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav-li a{
+    text-decoration: none;
+    color: black;
+}
+.middle-content {
+    align-items: center;
+    justify-content: center;
+    padding: 70px 150px;
+    margin: 30px;
+    text-align: center;
+}
+.middle-content h1 {
+    color: #20BC7E;
+    font-weight: 800;
+    font-size: 30px;
+}
+.middle-content p {
+    margin: 0px 170px;
+    font-size: 20px;
+}
+.card {
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-item {
+    margin: 40px 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.card span {
+    font-weight: 700;
+    font-size: 25px;
+    color: #20BC7E;
+}
+.card p {
+    color: black;
+    font-weight: 600;
+}
